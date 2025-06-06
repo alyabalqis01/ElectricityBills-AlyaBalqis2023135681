@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "583448082953",
+    "project_id": "electricitybills-alyabalqis",
+    "storage_bucket": "electricitybills-alyabalqis.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:583448082953:android:c5b745afac39a4ac8e56d8",
+        "android_client_info": {
+          "package_name": "com.example.electricitybills_alyabalqis"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnhBpzPT3NWJ923XD3ulGMN4Dvbq-MMEk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

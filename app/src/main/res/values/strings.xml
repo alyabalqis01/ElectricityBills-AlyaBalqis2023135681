@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Electricity Bill Estimator</string>
+<string name="calculate">Calculate &amp; Save</string>
+<string name="view_bills">View Saved Bills</string>
+<string name="final_cost">Final Cost:</string>
+<string name="enter_units">Enter units used (kWh)</string>
+<string name="enter_rebate">Enter rebate % (0-5)</string>
+</resources>

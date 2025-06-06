@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/brandGray"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/icon_logo_rbg" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Electricity Bills Estimator"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/textPrimary"
+        android:layout_marginBottom="8dp"
+        android:padding="8dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerMonth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:entries="@array/months" />
+
+    <EditText
+        android:id="@+id/inputUnits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter units used (kWh)"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/inputRebate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter rebate % (0-5)"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate and Save"
+        android:backgroundTint="@color/buttonBackground"
+        android:textColor="@color/buttonText" />
+
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        android:backgroundTint="@color/buttonBackground"
+        android:textColor="@color/buttonText" />
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Final Cost: "
+        android:textSize="18sp"
+        android:textColor="@color/textPrimary"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/btnViewList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Saved Bills"
+        android:backgroundTint="@color/buttonBackground"
+        android:textColor="@color/buttonText" />
+
+    <Button
+        android:id="@+id/btnAbout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:backgroundTint="@color/buttonBackground"
+        android:textColor="@color/buttonText" />
+</LinearLayout>

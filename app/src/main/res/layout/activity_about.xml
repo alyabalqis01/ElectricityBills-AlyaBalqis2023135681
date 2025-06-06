@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/brandGray">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/profile_picture"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:src="@drawable/profile_alya"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="16dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="Developer's Photo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Electricity Bills Estimator"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/textPrimary"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name: Nur Alya Balqis Binti Mohd Fazly\nStudent ID: 2023135681\nGroup: CDCS2405C\nCourse Code: ICT602\nCourse Name: Mobile Technology And Development"
+            android:textSize="20sp"
+            android:textColor="@color/textSecondary" />
+
+        <Button
+            android:id="@+id/btnGitHub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Visit GitHub Repository"
+            android:textColor="@color/buttonText"
+            android:backgroundTint="@color/buttonBackground"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="© 2024 Alba MoFaz Sdn Bhd. All rights reserved."
+            android:textSize="14sp"
+            android:textColor="@color/textSecondary"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="16dp" />
+    </LinearLayout>
+</ScrollView>

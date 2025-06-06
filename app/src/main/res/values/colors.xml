@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand Colors -->
+    <color name="brandBlue">#1E2A78</color> <!-- Deep Blue -->
+    <color name="brandOrange">#F39200</color> <!-- Bright Orange -->
+    <color name="brandWhite">#FFFFFF</color>
+    <color name="brandGray">#F5F5F5</color> <!-- Background Gray -->
+
+    <!-- Text Colors -->
+    <color name="textPrimary">#1E2A78</color>
+    <color name="textSecondary">#5D6470</color>
+    <color name="textWhite">#FFFFFF</color>
+
+    <!-- Button Colors -->
+    <color name="buttonBackground">#F39200</color>
+    <color name="buttonText">#FFFFFF</color>
+
+    <!-- List & Detail Backgrounds -->
+    <color name="listBackground">#FFFFFF</color>
+    <color name="listDivider">#DDDDDD</color>
+    <color name="cardBackground">#FFFFFF</color>
+
+    <!-- Accent and Utility -->
+    <color name="accentLight">#FDF5E6</color>
+</resources>
